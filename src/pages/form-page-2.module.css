@@ -1,0 +1,60 @@
+.formWrapper {
+  max-width: 960px;
+  margin: 70px 0px; 
+  padding: 0 1.0875rem 1.45rem; 
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.titleField {
+  border-radius: 5px;
+  box-shadow: none;
+  padding: 10px 0;
+  margin: 15px 0;  
+  border: solid 1px;
+  border-color: darkgrey;
+}
+
+.inputField {
+  border-radius: 5px;
+  box-shadow: none;
+  padding: 10px 0;
+  margin: 15px 0;  
+  border: solid 1px;
+  border-color: darkgrey;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.playText {
+  max-width: 360px;
+}
+
+.pageOneButton {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  background-color: darkgreen;
+  color: white;
+}
+
+.backButton {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  background-color: darkgreen;
+  color: white;
+  margin-right: 5px;
+}
+
+.pageOneButton:hover {
+  background-color: green;
+}
+
